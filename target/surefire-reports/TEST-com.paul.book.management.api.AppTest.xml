@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.paul.book.management.api.AppTest" time="0.024" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.jnu.encoding" value="GB18030"/>
+    <property name="java.class.path" value="E:\Workspaces\SpringCloud\book-management-api\api\target\test-classes;E:\Workspaces\SpringCloud\book-management-api\api\target\classes;E:\.m2\repository\org\projectlombok\lombok\1.18.16\lombok-1.18.16.jar;E:\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;E:\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;E:\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="java.vm.vendor" value="IBM Corporation"/>
+    <property name="com.ibm.zero.version" value="2"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="com.ibm.oti.vm.library.version" value="28"/>
+    <property name="java.vendor.url" value="http://www.ibm.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\bin\compressedrefs;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire6109645667363450374\surefirebooter6703646605044624122.jar C:\Users\ASUS\AppData\Local\Temp\surefire6109645667363450374 2024-03-13T01-17-51_607-jvmRun1 surefire7807453801511012100tmp surefire_05425411009322862543tmp"/>
+    <property name="surefire.test.class.path" value="E:\Workspaces\SpringCloud\book-management-api\api\target\test-classes;E:\Workspaces\SpringCloud\book-management-api\api\target\classes;E:\.m2\repository\org\projectlombok\lombok\1.18.16\lombok-1.18.16.jar;E:\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;E:\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;E:\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="com.ibm.packed.version" value="2"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ASUS"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\Program Files\IBM\WebSphere9.0\java\8.0\jre"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\Workspaces\SpringCloud\book-management-api\api"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.compiler" value="j9jit28"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.awt.fonts" value=""/>
+    <property name="surefire.real.class.path" value="C:\Users\ASUS\AppData\Local\Temp\surefire6109645667363450374\surefirebooter6703646605044624122.jar"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="sun.boot.class.path" value="D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\bin\compressedrefs\jclSC180\vm.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\se-service.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\cuda4j.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\math.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\ibmorb.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\ibmorbapi.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\ibmcfw.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\ibmpkcs.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\ibmcertpathfw.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\ibmjgssfw.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\ibmjssefw.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\ibmsaslfw.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\ibmjcefw.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\ibmjgssprovider.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\ibmjsseprovider2.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\ibmcertpathprovider.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\xmldsigfw.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\xml.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\charsets.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\resources.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\rt.jar;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\dataaccess.jar"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\bin\compressedrefs;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\bin"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.fullversion" value="JRE 1.8.0 IBM J9 2.8 Windows 10 amd64-64 Compressed References 20161013_322271 (JIT enabled, AOT enabled)&#10;J9VM - R28_Java8_SR3_20161013_1635_B322271&#10;JIT  - tr.r14.java.green_20161011_125790&#10;GC   - R28_Java8_SR3_20161013_1635_B322271_CMPRSS&#10;J9CL - 20161013_322271"/>
+    <property name="java.runtime.version" value="pwa6480sr3fp20-20161019_02 (SR3 FP20)"/>
+    <property name="user.name" value="ASUS"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="IBM J9 VM"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="localRepository" value="E:\.m2\repository"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASUS\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0"/>
+    <property name="com.ibm.system.agent.path" value="D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\bin"/>
+    <property name="user.dir" value="E:\Workspaces\SpringCloud\book-management-api\api"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="os.encoding" value="UTF8"/>
+    <property name="console.encoding" value="MS936"/>
+    <property name="com.ibm.oti.jcl.build" value="20161013_322271"/>
+    <property name="java.library.path" value="D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\bin\compressedrefs;D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;D:\Program Files\Java\jdk1.8.0_361\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\软件\apache-maven-4.0.0-alpha-2-bin\apache-maven-4.0.0-alpha-2\bin;%;RLANG_HOME%\bin;C:\Program Files\MongoDB\Server\6.0\bin;D:\Program Files\apache-zookeeper-3.7.1-bin\bin;D:\Program Files\Java\jdk1.8.0_361\jre\bin;D:\Program Files\Xshell 7\;D:\软件\Notepad++6.69\Notepad++;d:\Program Files\Git\cmd;D:\Program Files\apache-tomcat-9.0.82\bin;C:\Program Files\Docker\Docker\resources\bin;D:\Program Files\nodejs\node_global;D:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Roaming\npm;D:\Program Files\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="IBM Corporation"/>
+    <property name="java.vm.info" value="JRE 1.8.0 Windows 10 amd64-64 Compressed References 20161013_322271 (JIT enabled, AOT enabled)&#10;J9VM - R28_Java8_SR3_20161013_1635_B322271&#10;JIT  - tr.r14.java.green_20161011_125790&#10;GC   - R28_Java8_SR3_20161013_1635_B322271_CMPRSS&#10;J9CL - 20161013_322271"/>
+    <property name="java.vm.version" value="2.8"/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="ibm.system.encoding" value="GB18030"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.ext.dirs" value="D:\Program Files\IBM\WebSphere9.0\java\8.0\jre\lib\ext"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testApp" classname="com.paul.book.management.api.AppTest" time="0.001"/>
+</testsuite>
